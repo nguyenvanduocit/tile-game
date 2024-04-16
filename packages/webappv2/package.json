@@ -1,0 +1,30 @@
+{
+  "name": "webappv2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "deploy": "firebase deploy --only hosting",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^7.1.0",
+    "@babylonjs/gui": "^7.1.0",
+    "@babylonjs/materials": "^7.1.0",
+    "ant-design-vue": "4.x",
+    "firebase": "^10.10.0",
+    "pinia": "^2.1.7",
+    "stylus": "^0.63.0",
+    "unplugin-vue-components": "^0.26.0",
+    "vue": "^3.4.21",
+    "vuefire": "^3.1.23"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}

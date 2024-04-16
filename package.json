@@ -1,0 +1,28 @@
+{
+  "name": "firegroup-culture",
+  "type": "module",
+  "private": true,
+  "module": "index.ts",
+  "scripts": {
+    "lint": "eslint . --fix",
+    "format": "prettier . --write"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.9.0",
+    "bun-types": "latest",
+    "eslint": "^8.57.0",
+    "eslint-plugin-format": "^0.1.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "@babylonjs/materials": "^7.1.0",
+    "lodash": "^4.17.21",
+    "lowdb": "^7.0.1",
+    "winston": "^3.13.0"
+  }
+}
